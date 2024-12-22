@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Simulator</title>
+    <link rel="stylesheet" href="Cash.css">
+</head>
+<body>
+    <div class="atm-container">
+        <h1>ATM Simulator</h1>
+        <div class="balance">
+            <h2>Balance: <span id="balance">£1000</span></h2>
+        </div>
+
+        <div class="input-container">
+            <input type="number" id="amount" placeholder="Enter Amount" />
+            <button onclick="deposit()">Deposit</button>
+            <button onclick="withdraw()">Withdraw</button>
+        </div>
+
+        <div class="message" id="message"></div>
+    </div>
+
+    <script src="Cash.js"></script>
+</body>
+</html>
